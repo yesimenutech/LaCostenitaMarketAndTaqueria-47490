@@ -347,7 +347,7 @@
 
         .gallery-img {
             width: calc(33.333% - 14px);
-            aspect-ratio: 1 / 1;
+            aspect-ratio: 2 / 3;
             object-fit: cover;
             border-radius: 20px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -520,9 +520,7 @@
         }
 
         .hero-content { animation: fadeInUp 1s ease-out; }
-        section { opacity: 0; transform: translateY(30px); transition: all 0.6s ease-out; }
-        section.visible { opacity: 1; transform: translateY(0); }
-
+        
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
         ::-webkit-scrollbar-thumb { background: var(--color-accent); border-radius: 10px; }
@@ -537,7 +535,7 @@
         }
     </style>
     
-    <script>window.MENU_TECH_ = {"cuid":"000000000000000000","info":{"hours":"Mon – Fri: 8:00 AM – 8:00 PM\nSaturday: 9:00 AM – 8:00 PM\nSunday: 9:00 AM – 5:00 PM","phone":"(044) 359 0173","address":"104 S 5th St, O'Neill, NE 68763"},"lang":"en","ruid":"000000000000000000","title":"La Costeñita Market & Taqueria","titles":{"info-title":"Information","about-title":"We are La Costeñita Market & Taqueria","promo1-title":"Best Friends Deal","promo2-title":"Buy 1 Get 1 FREE","promo3-title":"Awesome Foursome","gallery-title":"Delicious Mexican Food","info-subtitle":"Visit Us","about-subtitle":"About Us","catering-title":"Tradition, flavor, and community","delivery-title":"Everything you need in one place","promo1-subtitle":"Sharing Is Caring","promo2-subtitle":"This Week Only","promo3-subtitle":"Sundays Only","gallery-subtitle":"Love At First Bite","catering-subtitle":"","delivery-subtitle":""},"contact":{"hours":"Mon – Fri: 8:00 AM – 8:00 PM Saturday: 9:00 AM – 8:00 PM Sunday: 9:00 AM – 5:00 PM","phone":"402-961-1354","address":"104 S 5th St, O'Neill, NE 68763"},"gallery":[
+    <script>window.MENU_TECH_ = {"cuid":"b1339c80-c30a-4fb5-b6f1-5bfa2a460fcc","info":{"hours":"Mon – Fri: 8:00 AM – 8:00 PM\nSaturday: 9:00 AM – 8:00 PM\nSunday: 9:00 AM – 5:00 PM","phone":"402-961-1354","address":"104 S 5th St, O'Neill, NE 68763"},"lang":"en","ruid":"013d923c-51e9-4095-8b23-935605e6f2d5","title":"La Costeñita Market & Taqueria","titles":{"info-title":"Information","about-title":"We are La Costeñita Market & Taqueria","promo1-title":"Best Friends Deal","promo2-title":"Buy 1 Get 1 FREE","promo3-title":"Awesome Foursome","gallery-title":"Delicious Mexican Food","info-subtitle":"Visit Us","about-subtitle":"About Us","catering-title":"Tradition, flavor, and community","delivery-title":"Everything you need in one place","promo1-subtitle":"Sharing Is Caring","promo2-subtitle":"This Week Only","promo3-subtitle":"Sundays Only","gallery-subtitle":"Love At First Bite","catering-subtitle":"","delivery-subtitle":""},"contact":{"hours":"Mon – Fri: 8:00 AM – 8:00 PM Saturday: 9:00 AM – 8:00 PM Sunday: 9:00 AM – 5:00 PM","phone":"402-961-1354","address":"104 S 5th St, O'Neill, NE 68763"},"gallery":[
 "https://res.cloudinary.com/dzklt0a5u/image/upload/v1784661180/unnamed_10_cxkh5d.webp",
 "https://res.cloudinary.com/dzklt0a5u/image/upload/v1784661181/unnamed_9_frgpot.webp",
 "https://res.cloudinary.com/dzklt0a5u/image/upload/v1784661181/unnamed_2_1_ojsitf.webp",
@@ -585,9 +583,9 @@
             <div class="hero-buttons">
                 <script src="https://www.fbgcdn.com/embedder/js/ewm2.js"></script>
                 <script src="https://menutech.xyz/menutechUI.min.js"></script>
-                <menutech-orders id="hero-orders" cuid="000000000000000000" ruid="000000000000000000" background="#C73B2B" color="#ffffff" data-glf-cuid="000000000000000000" data-glf-ruid="000000000000000000"></menutech-orders>
+                <menutech-orders id="hero-orders" cuid="b1339c80-c30a-4fb5-b6f1-5bfa2a460fcc" ruid="013d923c-51e9-4095-8b23-935605e6f2d5" background="#C73B2B" color="#ffffff" data-glf-cuid="b1339c80-c30a-4fb5-b6f1-5bfa2a460fcc" data-glf-ruid="013d923c-51e9-4095-8b23-935605e6f2d5"></menutech-orders>
                 <div id="hero-reservations-wrapper" style="display: inline-block;">
-                    <menutech-reservations id="hero-reservations" cuid="000000000000000000" ruid="000000000000000000" background="#2f4854" color="#ffffff" data-glf-cuid="000000000000000000" data-glf-ruid="000000000000000000" data-glf-reservation="true"></menutech-reservations>
+                    <menutech-reservations id="hero-reservations" cuid="b1339c80-c30a-4fb5-b6f1-5bfa2a460fcc" ruid="013d923c-51e9-4095-8b23-935605e6f2d5" background="#2f4854" color="#ffffff" data-glf-cuid="b1339c80-c30a-4fb5-b6f1-5bfa2a460fcc" data-glf-ruid="013d923c-51e9-4095-8b23-935605e6f2d5" data-glf-reservation="true"></menutech-reservations>
                 </div>
                 <script>setTimeout(() => { if(window.glfBindButtons) window.glfBindButtons(); }, 800);</script>
             </div>
@@ -640,7 +638,7 @@
                     </div>
                     <div class="info-item">
                         <h4 data-es="Teléfono" data-en="Phone">Phone</h4>
-                        <p id="info-phone">(044) 359 0173</p>
+                        <p id="info-phone">402-961-1354</p>
                     </div>
                     <div class="info-item">
                         <h4 data-es="Dirección" data-en="Address">Address</h4>
@@ -675,7 +673,7 @@
                 <div class="footer-col">
                     <h4 class="footer-title" data-es="Contáctanos" data-en="Contact Us">Contact Us</h4>
                     <p id="footer-address">104 S 5th St, O'Neill, NE 68763</p>
-                    <p id="footer-phone">Phone: (044) 359 0173</p>
+                    <p id="footer-phone">Phone: 402-961-1354</p>
                     <div id="social-icons" style="margin-top: 20px; display: flex; gap: 15px;"></div>
                 </div>
                 <div class="footer-col">
@@ -865,16 +863,6 @@
                     navbar.style.padding = '15px 0';
                     navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.08)';
                 }
-            });
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href');
-                    if (targetId && targetId !== '#') {
-                        const target = document.querySelector(targetId);
-                        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    }
-                });
             });
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
